@@ -142,5 +142,19 @@ int i;
     }
 
     public void reset(View view) {
+        userScrore=0;
+        userTurnScrore=0;
+        compScrore=0;
+        TextView currentView =(TextView)findViewById(R.id.zero2);
+        currentView.setText(String.valueOf(userTurnScrore));
+        TextView currentView2 =(TextView)findViewById(R.id.zero1);
+        currentView2.setText(String.valueOf(userTurnScrore));
+        TextView currentView3 =(TextView)findViewById(R.id.zero);
+        currentView3.setText(String.valueOf(userTurnScrore));
+
+
+
+
+
     }
 }
