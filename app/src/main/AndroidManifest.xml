@@ -5,16 +5,30 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Scarne's Dice"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:label="Single player"
+            android:parentActivityName=".Home"></activity>
+        <activity
+            android:name=".Home"
+            android:label="Scarne's Dice">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MultiPlayer"
+            android:label="MultiPlayer Mode"
+            android:parentActivityName=".Home" />
+        <activity android:name=".Help"
+
+            android:label="Help"
+            android:parentActivityName=".Home"></activity>
     </application>
 
 </manifest>

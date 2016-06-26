@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp"
+        android:text="Scarne’s Dice is a turn-based dice game where players score points by rolling a die and then:
+
+   1) if they roll a 1, score no points and lose their turn
+   2) if they roll a 2 to 6:
+       2.1) add the rolled value to their points
+       2.2) choose to either reroll or keep their score and end their turn
+
+The winner is the first player that reaches (or exceeds) 100 points."
+        android:textSize="24sp"
+        />
+</LinearLayout>

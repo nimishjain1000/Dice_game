@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Computer score :"
+            android:text="Player2 score :"
             android:textSize="16sp"
             />
         <TextView
@@ -73,8 +73,8 @@
             android:text="0"
             android:textSize="16sp"
             />
-</LinearLayout>
-        <ImageView
+    </LinearLayout>
+    <ImageView
         android:id="@+id/dice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,30 +87,29 @@
         android:layout_margin="20dp"
         android:gravity="center">
 
-    <Button
-        android:id="@+id/roll"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="roll"
-        android:text="Roll"/>
+        <Button
+            android:id="@+id/roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="roll"
+            android:text="Roll"/>
 
-    <Button
-        android:id="@+id/hold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="hold"
-        android:text="Hold"/>
+        <Button
+            android:id="@+id/hold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:onClick="hold"
+            android:text="Hold"/>
 
-    <Button
-        android:id="@+id/reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="reset"
-        android:text="Reset"/>
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="reset"
+            android:text="Reset"/>
     </LinearLayout>
-
 
     <TextView
         android:id="@+id/turn"
@@ -121,6 +120,5 @@
         android:text=" Player 1 turn"
         android:textSize="16sp"
         />
-
 
 </LinearLayout>
